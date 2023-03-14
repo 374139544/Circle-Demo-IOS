@@ -1158,7 +1158,7 @@ extension MessageServerViewController: EMCircleManagerCategoryDelegate {
         }
     }
     
-    func onChannelTransfered(_ serverId: String, from fromCategoryId: String, to toCategoryId: String, channelId: String, initiator: String) {
+    func onChannelTransferred(_ serverId: String, from fromCategoryId: String, to toCategoryId: String, channelId: String, initiator: String) {
         if serverId != self.serverId {
             return
         }
